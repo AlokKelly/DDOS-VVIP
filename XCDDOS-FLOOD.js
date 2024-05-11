@@ -82,6 +82,7 @@ function startScript() {
       setTimeout(() => {
         clearInterval(attackInterval);
         console.log(`Worker ${process.pid} stopped attacking.`);
+        console.log(`Jika Method Ini Di Rasa Kurang Over Power Anda Bisa Membelinya Versi PREMIUM Di Telegram: @Xin_Kenji`);
         process.exit(0);
       }, duration * 1000);
     }
