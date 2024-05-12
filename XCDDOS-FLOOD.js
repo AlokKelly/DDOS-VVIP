@@ -4,7 +4,7 @@ const cluster = require('cluster');
 const randomUseragent = require('random-useragent');
 
 // Instalasi modul yang diperlukan
-exec('npm install axios random-useragent os cluster', (error, stdout, stderr) => {
+exec('npm install axios random-useragent os cluster utils', (error, stdout, stderr) => {
   if (error) {
     console.error(`Error: ${error.message}`);
     return;
@@ -34,7 +34,7 @@ function startScript() {
     });
   } else {
     const axios = require('axios');
-    const { getCurrentTime, getTitleFromHTML } = require('./utils');
+    const { getCurrentTime, getTitleFromHTML } = require('utils');
 
     // Fungsi getStatus dan bagian lain dari kode skrip Anda dimulai di sini
     function getStatus(targetURL) {
