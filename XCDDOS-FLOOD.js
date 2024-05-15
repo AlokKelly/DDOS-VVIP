@@ -54,7 +54,7 @@ function startScript() {
         })
         .catch((error) => {
           if (error.message === 'Request timed out') {
-            console.log(`[\x1b[35XCDDOS\x1b[0m] ${getCurrentTime()} Request Timed Out`);
+            console.log(`CHIPI CHIPI CHAPA CHAPA`);
           } else if (error.response) {
             const extractedTitle = getTitleFromHTML(error.response.data);
             console.log(`[\x1b[35XCDDOS\x1b[0m] ${getCurrentTime()} Title: ${extractedTitle} (\x1b[31m${error.response.status}\x1b[0m)`);
