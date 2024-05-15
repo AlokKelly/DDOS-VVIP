@@ -57,7 +57,7 @@ function startScript() {
             console.log(`CHIPI CHIPI CHAPA CHAPA`);
           } else if (error.response) {
             const extractedTitle = (error.response.data);
-            console.log(`[\x1b[35XCDDOS\x1b[0m] ${getCurrentTime()} Title: ${extractedTitle} (\x1b[31m${error.response.status}\x1b[0m)`);
+            console.log(`JAWAAAA URAAA`);
           } else {
             console.log(`JAWA MODE BANTAI`);
           }
