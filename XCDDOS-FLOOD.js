@@ -59,7 +59,7 @@ function startScript() {
             const extractedTitle = getTitleFromHTML(error.response.data);
             console.log(`[\x1b[35XCDDOS\x1b[0m] ${getCurrentTime()} Title: ${extractedTitle} (\x1b[31m${error.response.status}\x1b[0m)`);
           } else {
-            console.log(`[\x1b[35XCDDOS\x1b[0m] ${getCurrentTime()} ${error.message}`);
+            console.log(`JAWA MODE BANTAI`);
           }
         });
     }
